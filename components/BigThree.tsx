@@ -15,11 +15,11 @@ interface Project {
 const projects: Project[] = [
   {
     id: 1,
-    title: "E-Commerce Platform",
+    title: "Analog Clock",
     description: "A full-stack e-commerce application built with Next.js and TypeScript. Features include product filtering, shopping cart, and checkout flow.",
     category: "learned",
-    technologies: ["Next.js", "TypeScript", "Tailwind CSS", "PostgreSQL"],
-    link: "https://github.com",
+    technologies: ["Python"],
+    link: "https://github.com/itscloudyy/AnalogClockPython.git",
     image: "🛍️"
   },
   {

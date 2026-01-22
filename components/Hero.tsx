@@ -20,7 +20,7 @@ export default function Hero() {
         
         <p className="text-lg sm:text-xl text-gray-400 mb-8 leading-relaxed max-w-3xl">
           I am a Software Engineer passionate about building accessible and user-centric web applications. 
-          I create responsive, interactive experiences using modern technologies like Next.js and React.
+          I create responsive, interactive experiences using modern technologies like Next.js, React and other Programming Languages.
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
