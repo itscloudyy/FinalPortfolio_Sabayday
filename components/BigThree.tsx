@@ -16,11 +16,11 @@ const projects: Project[] = [
   {
     id: 1,
     title: "Analog Clock",
-    description: "A full-stack e-commerce application built with Next.js and TypeScript. Features include product filtering, shopping cart, and checkout flow.",
+    description: "A fully functional analog clock application built with Python's Tkinter library, featuring real-time updates and customizable themes.",
     category: "learned",
     technologies: ["Python"],
     link: "https://github.com/itscloudyy/AnalogClockPython.git",
-    image: "🛍️"
+    image: "🕑"
   },
   {
     id: 2,

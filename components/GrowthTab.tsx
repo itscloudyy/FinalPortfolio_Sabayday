@@ -1,9 +1,9 @@
 export default function GrowthTab() {
   const currentlyLearning = [
     {
-      title: "Advanced React Patterns",
-      description: "Exploring React Server Components, concurrent rendering, and optimization techniques.",
-      progress: 75
+      title: "Machine Learning Basics",
+      description: "Understanding fundamental concepts of machine learning and its applications.",
+      progress: 65
     },
     {
       title: "TypeScript Advanced Types",
