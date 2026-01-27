@@ -29,7 +29,7 @@ const projects: Project[] = [
     category: "know",
     technologies: ["React", "Firebase", "Redux", "CSS Modules"],
     link: "https://github.com",
-    image: "/task-management.jpg"
+    image: "/task-management.png"
   },
   {
     id: 3,
@@ -38,7 +38,7 @@ const projects: Project[] = [
     category: "aspiring",
     technologies: ["Next.js", "OpenAI API", "WebSockets", "AI/ML"],
     link: "https://github.com",
-    image: "/ai-chat.jpg"
+    image: "/ai-chat.jpeg"
   },
 ];
 
