@@ -4,8 +4,12 @@ export default function Hero() {
       <div className="max-w-4xl mx-auto text-center">
         <div className="mb-8">
           <div className="w-32 h-32 mx-auto mb-6 rounded-full bg-gradient-to-r from-blue-500 to-cyan-500 p-1">
-            <div className="w-full h-full rounded-full bg-slate-900 flex items-center justify-center">
-              <span className="text-5xl">👨‍💻</span>
+            <div className="w-full h-full rounded-full bg-slate-900 flex items-center justify-center overflow-hidden">
+              <img 
+                src="/120391351_2646010672381031_434629171718105876_n.jpg"
+                alt="Johnwel Sabayday"
+                className="w-full h-full object-cover"
+              />
             </div>
           </div>
         </div>

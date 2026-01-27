@@ -20,7 +20,7 @@ const projects: Project[] = [
     category: "learned",
     technologies: ["Python"],
     link: "https://github.com/itscloudyy/AnalogClockPython.git",
-    image: "https://images.unsplash.com/photo-1491951651021-7ed72a27f26e?ixlib=rb-4.0.3&w=500&h=300&fit=crop"
+    image: "/analog-clock.jpg"
   },
   {
     id: 2,
@@ -29,7 +29,7 @@ const projects: Project[] = [
     category: "know",
     technologies: ["React", "Firebase", "Redux", "CSS Modules"],
     link: "https://github.com",
-    image: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?ixlib=rb-4.0.3&w=500&h=300&fit=crop"
+    image: "/task-management.jpg"
   },
   {
     id: 3,
@@ -38,7 +38,7 @@ const projects: Project[] = [
     category: "aspiring",
     technologies: ["Next.js", "OpenAI API", "WebSockets", "AI/ML"],
     link: "https://github.com",
-    image: "https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&w=500&h=300&fit=crop"
+    image: "/ai-chat.jpg"
   },
 ];
 
