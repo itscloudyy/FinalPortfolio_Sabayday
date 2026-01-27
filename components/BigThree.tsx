@@ -20,7 +20,7 @@ const projects: Project[] = [
     category: "learned",
     technologies: ["Python"],
     link: "https://github.com/itscloudyy/AnalogClockPython.git",
-    image: "🕑"
+    image: "https://images.unsplash.com/photo-1491951651021-7ed72a27f26e?ixlib=rb-4.0.3&w=500&h=300&fit=crop"
   },
   {
     id: 2,
@@ -29,7 +29,7 @@ const projects: Project[] = [
     category: "know",
     technologies: ["React", "Firebase", "Redux", "CSS Modules"],
     link: "https://github.com",
-    image: "✅"
+    image: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?ixlib=rb-4.0.3&w=500&h=300&fit=crop"
   },
   {
     id: 3,
@@ -38,7 +38,7 @@ const projects: Project[] = [
     category: "aspiring",
     technologies: ["Next.js", "OpenAI API", "WebSockets", "AI/ML"],
     link: "https://github.com",
-    image: "🤖"
+    image: "https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&w=500&h=300&fit=crop"
   },
 ];
 
@@ -111,8 +111,12 @@ export default function BigThree() {
               key={project.id}
               className="bg-slate-700/50 rounded-xl overflow-hidden hover:transform hover:scale-105 transition duration-300 border border-slate-600 hover:border-cyan-500"
             >
-              <div className={`h-40 bg-gradient-to-r ${getCategoryColor(project.category)} flex items-center justify-center text-6xl`}>
-                {project.image}
+              <div className={`h-40 bg-gradient-to-r ${getCategoryColor(project.category)} flex items-center justify-center overflow-hidden`}>
+                <img 
+                  src={project.image} 
+                  alt={project.title}
+                  className="w-full h-full object-cover"
+                />
               </div>
               
               <div className="p-6">
