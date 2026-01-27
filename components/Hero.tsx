@@ -43,7 +43,7 @@ export default function Hero() {
         </div>
 
         <div className="flex justify-center gap-6 text-gray-400">
-          <a href="https://github.com" className="hover:text-cyan-400 transition text-2xl">
+          <a href="https://github.com/itscloudyy" className="hover:text-cyan-400 transition text-2xl">
             GitHub
           </a>
           <a href="https://linkedin.com" className="hover:text-cyan-400 transition text-2xl">
