@@ -9,7 +9,7 @@ export default function Footer() {
           <div>
             <h4 className="text-lg font-bold mb-4">About Me</h4>
             <p className="text-gray-400 text-sm leading-relaxed">
-              A passionate Frontend Developer dedicated to creating accessible and performant web applications.
+              A passionate Software Engineer dedicated to creating accessible and performant web applications and Softwares.
             </p>
           </div>
 
