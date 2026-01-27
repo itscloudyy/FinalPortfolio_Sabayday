@@ -66,7 +66,7 @@ export default function GrowthTab() {
           </h3>
           <p className="text-gray-300 leading-relaxed">
             I believe in continuous learning and growth. Every project is an opportunity to expand my skills and tackle new challenges. 
-            By staying curious and dedicating time to learning new technologies, I ensure I remain at the forefront of web development.
+            By exploring new things on technology and consistency of practicing software maintenance.
           </p>
         </div>
       </div>
