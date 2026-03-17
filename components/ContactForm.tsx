@@ -139,7 +139,7 @@ export default function ContactForm() {
         </form>
 
         <p className="text-center text-gray-400 mt-6">
-          Or email me directly at <a href="mailto:hello@example.com" className="text-cyan-400 hover:underline">hello@example.com</a>
+          Or email me directly at <a href="mailto:hello@example.com" className="text-cyan-400 hover:underline">sabaydayj@gmail.com</a>
         </p>
       </div>
     </section>
