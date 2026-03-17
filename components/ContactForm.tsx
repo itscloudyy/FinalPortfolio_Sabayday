@@ -14,7 +14,7 @@ export default function ContactForm() {
 
   // Initialize EmailJS once on component mount
   useEffect(() => {
-    emailjs.init(process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY || '');
+    emailjs.init('daotetnhnFn25MYu9');
   }, []);
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -28,16 +28,16 @@ export default function ContactForm() {
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setStatus('loading');
-    
+
     try {
       const response = await emailjs.send(
-        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID || '',
-        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID || '',
+        'service_7gxxf6j',
+        'template_1j9nq0p',
         {
           from_name: formData.name,
           from_email: formData.email,
           message: formData.message,
-          to_email: process.env.NEXT_PUBLIC_CONTACT_EMAIL || 'your@email.com',
+          to_email: 'sabaydayj@gmail.com',
         }
       );
 
@@ -45,7 +45,7 @@ export default function ContactForm() {
         setStatus('success');
         setMessage('Message sent successfully! I\'ll get back to you soon.');
         setFormData({ name: '', email: '', message: '' });
-        
+
         setTimeout(() => {
           setStatus('idle');
           setMessage('');
@@ -120,11 +120,10 @@ export default function ContactForm() {
           </div>
 
           {message && (
-            <div className={`mb-6 p-4 rounded-lg text-center ${
-              status === 'success' 
-                ? 'bg-green-500/20 text-green-300' 
+            <div className={`mb-6 p-4 rounded-lg text-center ${status === 'success'
+                ? 'bg-green-500/20 text-green-300'
                 : 'bg-red-500/20 text-red-300'
-            }`}>
+              }`}>
               {message}
             </div>
           )}
